@@ -17,5 +17,9 @@ namespace PBL_DATAV
             InitializeComponent();
         }
 
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
