@@ -10,16 +10,25 @@ using System.Windows.Forms;
 
 namespace PBL_DATAV
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            About about = new About();
+            about.Show();
+        }
 
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            for (int i = Application.OpenForms.Count - 1; i!= 1 ;i = Application.OpenForms.Count - 1)
+            {
+                Application.OpenForms[i].Close();
+            }
         }
     }
 }
