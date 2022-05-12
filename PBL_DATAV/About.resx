@@ -117,4 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fluff Off February Dev Team
+Moritz Chester Saribay (Leader) - Lead Full Stack Developer
+Samba Angeles - Resources
+Allen Alwin David - Assist Full Stack Developer
+Raynard Padagas - Data Converting and Front End Developer
+Geoff Orosco - Front End Developer and Resources
+Michael Andrae Cid - Resources
+
+Application Project for iACADEMY PBL 2021-2022</value>
+  </data>
 </root>
