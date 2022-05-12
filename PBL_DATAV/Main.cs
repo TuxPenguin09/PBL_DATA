@@ -30,5 +30,10 @@ namespace PBL_DATAV
                 Application.OpenForms[i].Close();
             }
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
