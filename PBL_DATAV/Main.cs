@@ -17,6 +17,14 @@ namespace PBL_DATAV
             InitializeComponent();
         }
 
+        public void CloseApp()
+        {
+            for (int i = Application.OpenForms.Count - 1; i != 1; i = Application.OpenForms.Count - 1)
+            {
+                Application.OpenForms[i].Close();
+            }
+        }
+
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             About about = new About();
@@ -25,10 +33,7 @@ namespace PBL_DATAV
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            for (int i = Application.OpenForms.Count - 1; i!= 1 ;i = Application.OpenForms.Count - 1)
-            {
-                Application.OpenForms[i].Close();
-            }
+            CloseApp();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -49,6 +54,11 @@ namespace PBL_DATAV
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e)
+        {
+            CloseApp();
         }
     }
 }
