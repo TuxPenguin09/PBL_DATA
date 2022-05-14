@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -48,9 +48,9 @@
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.panelTab1 = new Guna.UI2.WinForms.Guna2Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -240,7 +240,7 @@
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(1073, 709);
+            this.guna2Button1.Location = new System.Drawing.Point(1073, 728);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(92, 30);
             this.guna2Button1.TabIndex = 9;
@@ -249,16 +249,16 @@
             // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             this.chart1.Location = new System.Drawing.Point(468, 1);
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(683, 405);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
@@ -273,15 +273,15 @@
             this.guna2Panel1.Size = new System.Drawing.Size(466, 400);
             this.guna2Panel1.TabIndex = 11;
             // 
-            // guna2VScrollBar1
+            // guna2HtmlLabel2
             // 
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(440, 0);
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 19;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 397);
-            this.guna2VScrollBar1.TabIndex = 0;
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(4, 42);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(79, 18);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = "[Description]";
             // 
             // guna2HtmlLabel1
             // 
@@ -294,15 +294,15 @@
             this.guna2HtmlLabel1.TabIndex = 1;
             this.guna2HtmlLabel1.Text = "[Title]";
             // 
-            // guna2HtmlLabel2
+            // guna2VScrollBar1
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(4, 42);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(79, 18);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "[Description]";
+            this.guna2VScrollBar1.InUpdate = false;
+            this.guna2VScrollBar1.LargeChange = 10;
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(440, 0);
+            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
+            this.guna2VScrollBar1.ScrollbarSize = 19;
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 397);
+            this.guna2VScrollBar1.TabIndex = 0;
             // 
             // panelTab1
             // 
@@ -310,7 +310,7 @@
             this.panelTab1.Controls.Add(this.chart1);
             this.panelTab1.Location = new System.Drawing.Point(14, 297);
             this.panelTab1.Name = "panelTab1";
-            this.panelTab1.Size = new System.Drawing.Size(1151, 406);
+            this.panelTab1.Size = new System.Drawing.Size(1151, 425);
             this.panelTab1.TabIndex = 12;
             // 
             // Main
