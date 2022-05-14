@@ -51,12 +51,14 @@
             this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.panelTab1 = new Guna.UI2.WinForms.Guna2Panel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
+            this.panelTab1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -251,13 +253,13 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(485, 298);
+            this.chart1.Location = new System.Drawing.Point(468, 1);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(680, 405);
+            this.chart1.Size = new System.Drawing.Size(683, 405);
             this.chart1.TabIndex = 10;
             this.chart1.Text = "chart1";
             // 
@@ -266,19 +268,19 @@
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
             this.guna2Panel1.Controls.Add(this.guna2VScrollBar1);
-            this.guna2Panel1.Location = new System.Drawing.Point(13, 298);
+            this.guna2Panel1.Location = new System.Drawing.Point(3, 3);
             this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(466, 432);
+            this.guna2Panel1.Size = new System.Drawing.Size(466, 400);
             this.guna2Panel1.TabIndex = 11;
             // 
             // guna2VScrollBar1
             // 
             this.guna2VScrollBar1.InUpdate = false;
             this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(444, 3);
+            this.guna2VScrollBar1.Location = new System.Drawing.Point(440, 0);
             this.guna2VScrollBar1.Name = "guna2VScrollBar1";
             this.guna2VScrollBar1.ScrollbarSize = 19;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 425);
+            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 397);
             this.guna2VScrollBar1.TabIndex = 0;
             // 
             // guna2HtmlLabel1
@@ -302,6 +304,15 @@
             this.guna2HtmlLabel2.TabIndex = 2;
             this.guna2HtmlLabel2.Text = "[Description]";
             // 
+            // panelTab1
+            // 
+            this.panelTab1.Controls.Add(this.guna2Panel1);
+            this.panelTab1.Controls.Add(this.chart1);
+            this.panelTab1.Location = new System.Drawing.Point(14, 297);
+            this.panelTab1.Name = "panelTab1";
+            this.panelTab1.Size = new System.Drawing.Size(1151, 406);
+            this.panelTab1.TabIndex = 12;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -309,8 +320,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(14)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1177, 751);
             this.ControlBox = false;
-            this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.chart1);
+            this.Controls.Add(this.panelTab1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Button5);
             this.Controls.Add(this.guna2Button4);
@@ -335,6 +345,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            this.panelTab1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,5 +372,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
+        private Guna.UI2.WinForms.Guna2Panel panelTab1;
     }
 }
