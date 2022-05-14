@@ -76,6 +76,7 @@ namespace PBL_DATAV
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Gender Equality Increased";
@@ -94,6 +95,7 @@ namespace PBL_DATAV
         }
         private void guna2Button5_Click(object sender, EventArgs e)
         {
+            
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Percent of Women in Healthcare <br> Leadership";
