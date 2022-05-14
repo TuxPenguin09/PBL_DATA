@@ -174,7 +174,7 @@
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(206, 48);
             this.Button2.TabIndex = 5;
-            this.Button2.Text = "Button2";
+            this.Button2.Text = "Increased";
             // 
             // guna2Button3
             // 
@@ -192,7 +192,7 @@
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(206, 48);
             this.guna2Button3.TabIndex = 6;
-            this.guna2Button3.Text = "Button3";
+            this.guna2Button3.Text = "Most Favor Inreasing";
             // 
             // guna2Button4
             // 
@@ -210,7 +210,7 @@
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(206, 48);
             this.guna2Button4.TabIndex = 7;
-            this.guna2Button4.Text = "Button4";
+            this.guna2Button4.Text = "Gap Emplyment";
             // 
             // guna2Button5
             // 
@@ -228,7 +228,7 @@
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(206, 48);
             this.guna2Button5.TabIndex = 8;
-            this.guna2Button5.Text = "Button5";
+            this.guna2Button5.Text = "Women in Healthcare Leadership";
             // 
             // guna2Button1
             // 
