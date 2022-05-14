@@ -126,7 +126,8 @@ namespace PBL_DATAV
 
         private void guna2Button4_Click(object sender, EventArgs e)
         {
-
+            panelTab1.Visible = false;
+            chartwhole1.Series.Clear();
         }
     }
 }
