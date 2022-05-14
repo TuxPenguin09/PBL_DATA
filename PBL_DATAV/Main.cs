@@ -56,6 +56,7 @@ namespace PBL_DATAV
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Education Gap in Support";
+            guna2HtmlLabel2.Text = "Who favor to increase Gender Equality in Education";
             string[] countryName = new string[] { "Argentina", "Mexico", "Philippines", "Greece", "Italy", "Japan", "Israel", "Brazil", "Poland", "Spain", "France", "Germany", "South Africa", "India", "Kenya", "Hungary", "Canada", "Netherlands", "Sweden", "UK", "US" };
             int[] lessEdu = new int[] { 58, 52, 31, 51, 60, 49, 58, 57, 54, 71, 69, 64, 48, 74, 67, 26, 68, 67, 80, 71, 68 };
             int[] moreEdu = new int[] { 81, 74, 49, 67, 74, 63, 71, 70, 67, 82, 80, 75, 59, 84, 77, 45, 76, 75, 86, 77, 74 };
@@ -79,7 +80,8 @@ namespace PBL_DATAV
             
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
-            guna2HtmlLabel1.Text = "Gender Equality Increased";
+            guna2HtmlLabel1.Text = "Increased Healthcare Leadership";
+            guna2HtmlLabel2.Text = "Healthcare Leadership increased from Gender Equality";
             string[] countryName = new string[] { "Canada", "US", "Sweden", "France", "Spain", "UK", "Netherlands", "Germany", "Greece", "Italy", "Poland", "Hungary", "Russia", "Indonesia", "India", "Australia", "South Korea", "Japan", "Phillipines", "Tunisia", "Israel","Kenya","Nigeria", "South Africa", "Brazil","Argentina", "Mexico"};
             int[] increased = new int[] { 72, 68, 80, 74, 73, 73, 71, 70, 68, 29, 49, 77, 76, 75, 74, 59, 46, 66, 66, 68, 55, 51, 68, 66, 63};
             int[] no_change = new int[] { 22, 22, 15, 22, 20, 19, 20, 23, 25, 22, 36, 16, 7, 17, 17, 36, 46, 23, 12, 13, 18, 28, 21, 23, 26 };
@@ -122,6 +124,9 @@ namespace PBL_DATAV
 
         }
 
-        
+        private void guna2Button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
