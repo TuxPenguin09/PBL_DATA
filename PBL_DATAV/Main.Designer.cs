@@ -46,17 +46,18 @@
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.chartwhole1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2VScrollBar1 = new Guna.UI2.WinForms.Guna2VScrollBar();
             this.panelTab1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartwhole1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.panelTab1.SuspendLayout();
             this.SuspendLayout();
@@ -247,27 +248,27 @@
             this.guna2Button1.Text = "Close";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click_1);
             // 
-            // chart1
+            // chartwhole1
             // 
             chartArea1.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea1);
+            this.chartwhole1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
-            this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(468, 1);
-            this.chart1.Name = "chart1";
+            this.chartwhole1.Legends.Add(legend1);
+            this.chartwhole1.Location = new System.Drawing.Point(468, 1);
+            this.chartwhole1.Name = "chartwhole1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
-            this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(683, 405);
-            this.chart1.TabIndex = 10;
-            this.chart1.Text = "chart1";
+            this.chartwhole1.Series.Add(series1);
+            this.chartwhole1.Size = new System.Drawing.Size(683, 405);
+            this.chartwhole1.TabIndex = 10;
+            this.chartwhole1.Text = "chart1";
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel3);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel2);
             this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2Panel1.Controls.Add(this.guna2VScrollBar1);
             this.guna2Panel1.Location = new System.Drawing.Point(3, 3);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(466, 400);
@@ -279,9 +280,9 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(4, 42);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(79, 18);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(232, 18);
             this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "[Description]";
+            this.guna2HtmlLabel2.Text = "Who favor to increase Gender Equality";
             // 
             // guna2HtmlLabel1
             // 
@@ -290,28 +291,41 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(4, 4);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(65, 31);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(292, 31);
             this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "[Title]";
-            // 
-            // guna2VScrollBar1
-            // 
-            this.guna2VScrollBar1.InUpdate = false;
-            this.guna2VScrollBar1.LargeChange = 10;
-            this.guna2VScrollBar1.Location = new System.Drawing.Point(440, 0);
-            this.guna2VScrollBar1.Name = "guna2VScrollBar1";
-            this.guna2VScrollBar1.ScrollbarSize = 19;
-            this.guna2VScrollBar1.Size = new System.Drawing.Size(19, 397);
-            this.guna2VScrollBar1.TabIndex = 0;
+            this.guna2HtmlLabel1.Text = "Education Gap in Support";
+            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // panelTab1
             // 
+            this.panelTab1.Controls.Add(this.guna2HtmlLabel4);
             this.panelTab1.Controls.Add(this.guna2Panel1);
-            this.panelTab1.Controls.Add(this.chart1);
+            this.panelTab1.Controls.Add(this.chartwhole1);
             this.panelTab1.Location = new System.Drawing.Point(14, 297);
             this.panelTab1.Name = "panelTab1";
             this.panelTab1.Size = new System.Drawing.Size(1151, 425);
             this.panelTab1.TabIndex = 12;
+            this.panelTab1.Visible = false;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(237, 42);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(218, 18);
+            this.guna2HtmlLabel3.TabIndex = 3;
+            this.guna2HtmlLabel3.Text = "in one of these country by education.";
+            // 
+            // guna2HtmlLabel4
+            // 
+            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel4.Location = new System.Drawing.Point(7, 382);
+            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            this.guna2HtmlLabel4.Size = new System.Drawing.Size(210, 18);
+            this.guna2HtmlLabel4.TabIndex = 4;
+            this.guna2HtmlLabel4.Text = "Resources: PEW Research Center";
             // 
             // Main
             // 
@@ -342,10 +356,11 @@
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chartwhole1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             this.panelTab1.ResumeLayout(false);
+            this.panelTab1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -367,11 +382,12 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button5;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chartwhole1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2VScrollBar guna2VScrollBar1;
         private Guna.UI2.WinForms.Guna2Panel panelTab1;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }
