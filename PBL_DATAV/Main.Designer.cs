@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -262,17 +262,17 @@
             // 
             // chartwhole1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chartwhole1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chartwhole1.Legends.Add(legend4);
+            chartArea1.Name = "ChartArea1";
+            this.chartwhole1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chartwhole1.Legends.Add(legend1);
             this.chartwhole1.Location = new System.Drawing.Point(468, 1);
             this.chartwhole1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartwhole1.Name = "chartwhole1";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chartwhole1.Series.Add(series4);
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chartwhole1.Series.Add(series1);
             this.chartwhole1.Size = new System.Drawing.Size(683, 405);
             this.chartwhole1.TabIndex = 10;
             this.chartwhole1.Text = "chart1";

@@ -56,6 +56,7 @@ namespace PBL_DATAV
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Education Gap in Support";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
             guna2HtmlLabel2.Text = "Who favor to increase Gender Equality in Education";
             string[] countryName = new string[] { "Argentina", "Mexico", "Philippines", "Greece", "Italy", "Japan", "Israel", "Brazil", "Poland", "Spain", "France", "Germany", "South Africa", "India", "Kenya", "Hungary", "Canada", "Netherlands", "Sweden", "UK", "US" };
             int[] lessEdu = new int[] { 58, 52, 31, 51, 60, 49, 58, 57, 54, 71, 69, 64, 48, 74, 67, 26, 68, 67, 80, 71, 68 };
@@ -81,6 +82,7 @@ namespace PBL_DATAV
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Increased Healthcare Leadership";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
             guna2HtmlLabel2.Text = "Healthcare Leadership increased from Gender Equality";
             string[] countryName = new string[] { "Canada", "US", "Sweden", "France", "Spain", "UK", "Netherlands", "Germany", "Greece", "Italy", "Poland", "Hungary", "Russia", "Indonesia", "India", "Australia", "South Korea", "Japan", "Phillipines", "Tunisia", "Israel","Kenya","Nigeria", "South Africa", "Brazil","Argentina", "Mexico"};
             int[] increased = new int[] { 72, 68, 80, 74, 73, 73, 71, 70, 68, 29, 49, 77, 76, 75, 74, 59, 46, 66, 66, 68, 55, 51, 68, 66, 63};
@@ -97,12 +99,13 @@ namespace PBL_DATAV
         }
         private void guna2Button5_Click(object sender, EventArgs e)
         {
-            
             panelTab1.Visible = true;
             chartwhole1.Series.Clear();
-            guna2HtmlLabel1.Text = "Percent of Women in Healthcare <br> Leadership";
+            guna2HtmlLabel1.Text = "Women in Healthcare <br> Leadership";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 65);
+            guna2HtmlLabel2.Text = "Shows a percentage of Women in Healthcare leadership by year <br> 2015, 2017 and 2018";
             string[] companies = new string[] { "Board Members at Fortune 500 healthcare", "Executives at Fortune 500", "Hospital Executives", "Digital health VC Partners", "Digital health startup CEO's" };
-            double[] year_2015 = new double[] { 21,20, 36.40, 11.40,8.80 };
+            double[] year_2015 = new double[] { 21,20, 20.00, 36.40, 11.40,8.80 };
             double[] year_2017 = new double[] { 22.10, 22.60, 32.40,10.90,9.70};
             double[] year_2018 = new double[] {22.60, 21.90, 34.50, 12.20, 10.20};
 
