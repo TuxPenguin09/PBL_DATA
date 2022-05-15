@@ -120,9 +120,13 @@
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="guna2AnimateWindow1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>132, 17</value>
-  </metadata>
+  <data name="guna2HtmlLabel3.Text" xml:space="preserve">
+    <value>&lt;h1&gt;Welcome to SameScope&lt;/h1&gt;
+This app shows gender equality data and interest or just analytics how much the topic in those tabs supports Gender Equality.
+&lt;br&gt;
+&lt;br&gt;
+Made by a PBL group Fluff Off February @ SD11-A in iACADEMY of 2021-2022.</value>
+  </data>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>81</value>
   </metadata>
