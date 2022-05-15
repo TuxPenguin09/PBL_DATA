@@ -244,6 +244,7 @@
             this.guna2Button5.Size = new System.Drawing.Size(205, 48);
             this.guna2Button5.TabIndex = 8;
             this.guna2Button5.Text = "Women in Healthcare Leadership";
+            this.guna2Button5.Click += new System.EventHandler(this.guna2Button5_Click);
             // 
             // guna2Button1
             // 
@@ -345,7 +346,7 @@
             // 
             this.userControl11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(14)))), ((int)(((byte)(18)))));
             this.userControl11.Location = new System.Drawing.Point(0, 297);
-            this.userControl11.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.userControl11.Margin = new System.Windows.Forms.Padding(5);
             this.userControl11.Name = "userControl11";
             this.userControl11.Size = new System.Drawing.Size(1177, 427);
             this.userControl11.TabIndex = 13;

@@ -163,9 +163,36 @@ namespace PBL_DATAV
             for (int i = 0; i < 25; i++)
             {
                 chartwhole1.Series.Add(countryName[i]);
-                chartwhole1.Series[countryName[i]].Points.AddXY("increased", increased[i]);
-                chartwhole1.Series[countryName[i]].Points.AddXY("no_change", no_change[i]);
-                chartwhole1.Series[countryName[i]].Points.AddXY("decreased", decreased[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("Increased", increased[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("No Change", no_change[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("Decreased", decreased[i]);
+            }
+        }
+
+        private void guna2Button5_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            BringToFront();
+            panelTab1.Visible = true;
+            chartwhole1.Series.Clear();
+            guna2HtmlLabel1.Text = "Women Healthcare Leadership.";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
+            guna2HtmlLabel2.Text = "Women as a percentage of each one of the following <br> categoried from the year 2015, 2017 and 2018";
+            string[] details = new string[] { "2015", "2017", "2018" };
+            double[] year1 = new double[] { 21.0, 22.0, 22.6 };
+            double[] year2 = new double[] { 20.0, 22.6, 21.9 };
+            double[] year3 = new double[] { 36.4, 32.4, 34.5 };
+            double[] year4 = new double[] { 11.4, 10.9, 12.2 };
+            double[] year5 = new double[] { 8.8, 9.7, 10.2 };
+
+            for (int i = 0; i < 3; i++)
+            {
+                chartwhole1.Series.Add(details[i]);
+                chartwhole1.Series[details[i]].Points.AddXY("Bored members at Fortune", year1[i]);
+                chartwhole1.Series[details[i]].Points.AddXY("Executives at Fortune", year2[i]);
+                chartwhole1.Series[details[i]].Points.AddXY("Hospital executives", year3[i]);
+                chartwhole1.Series[details[i]].Points.AddXY("Digital health VC partners", year4[i]);
+                chartwhole1.Series[details[i]].Points.AddXY("Digital health CEO startups", year5[i]);
             }
         }
     }
