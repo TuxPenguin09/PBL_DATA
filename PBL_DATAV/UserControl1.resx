@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Also known as sexual equality or equality of the sexes. Is the state of equal
+ease of access to resources and opportunities regardless of gender
+including economic participation and decision-making
+and the state of valuing different behaviors, aspirations and needs equally 
+regardless of gender.</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Sometimes people said its a man's world, but there are
+female as well, It affects all of us but not from every
+situation. It could use some help to make every
+people's time and work easier because there is a term
+"Girls can be a programmer" or something like it.
+</value>
+  </data>
 </root>
