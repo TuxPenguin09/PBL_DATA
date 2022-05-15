@@ -28,9 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -266,17 +267,17 @@
             // 
             // chartwhole1
             // 
-            chartArea5.Name = "ChartArea1";
-            this.chartwhole1.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chartwhole1.Legends.Add(legend5);
+            chartArea9.Name = "ChartArea1";
+            this.chartwhole1.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.chartwhole1.Legends.Add(legend9);
             this.chartwhole1.Location = new System.Drawing.Point(468, 1);
             this.chartwhole1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartwhole1.Name = "chartwhole1";
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chartwhole1.Series.Add(series5);
+            series9.ChartArea = "ChartArea1";
+            series9.Legend = "Legend1";
+            series9.Name = "Series1";
+            this.chartwhole1.Series.Add(series9);
             this.chartwhole1.Size = new System.Drawing.Size(683, 405);
             this.chartwhole1.TabIndex = 10;
             this.chartwhole1.Text = "chart1";
@@ -350,11 +351,11 @@
             // 
             this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(3, 8);
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(3, -14);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(108, 18);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(739, 120);
             this.guna2HtmlLabel3.TabIndex = 0;
-            this.guna2HtmlLabel3.Text = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Text = resources.GetString("guna2HtmlLabel3.Text");
             // 
             // Main
             // 
