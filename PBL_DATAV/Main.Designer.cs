@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -52,6 +52,8 @@
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panelTab1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.HomePanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -59,6 +61,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.chartwhole1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
             this.panelTab1.SuspendLayout();
+            this.HomePanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -155,7 +158,7 @@
             this.Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
             this.Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(250, 242);
+            this.Button1.Location = new System.Drawing.Point(253, 242);
             this.Button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(205, 48);
@@ -195,12 +198,13 @@
             this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
             this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(736, 242);
+            this.guna2Button3.Location = new System.Drawing.Point(715, 242);
             this.guna2Button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(205, 48);
             this.guna2Button3.TabIndex = 6;
-            this.guna2Button3.Text = "Most Favor Inreasing";
+            this.guna2Button3.Text = "Most Favor Increasing";
+            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
             // guna2Button4
             // 
@@ -234,7 +238,7 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(29)))), ((int)(((byte)(38)))));
             this.guna2Button5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.Location = new System.Drawing.Point(957, 242);
+            this.guna2Button5.Location = new System.Drawing.Point(945, 242);
             this.guna2Button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(205, 48);
@@ -262,17 +266,17 @@
             // 
             // chartwhole1
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartwhole1.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartwhole1.Legends.Add(legend1);
+            chartArea5.Name = "ChartArea1";
+            this.chartwhole1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chartwhole1.Legends.Add(legend5);
             this.chartwhole1.Location = new System.Drawing.Point(468, 1);
             this.chartwhole1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chartwhole1.Name = "chartwhole1";
-            series1.ChartArea = "ChartArea1";
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartwhole1.Series.Add(series1);
+            series5.ChartArea = "ChartArea1";
+            series5.Legend = "Legend1";
+            series5.Name = "Series1";
+            this.chartwhole1.Series.Add(series5);
             this.chartwhole1.Size = new System.Drawing.Size(683, 405);
             this.chartwhole1.TabIndex = 10;
             this.chartwhole1.Text = "chart1";
@@ -334,6 +338,24 @@
             this.guna2HtmlLabel4.TabIndex = 4;
             this.guna2HtmlLabel4.Text = "Resources: PEW Research Center";
             // 
+            // HomePanel
+            // 
+            this.HomePanel.Controls.Add(this.guna2HtmlLabel3);
+            this.HomePanel.Location = new System.Drawing.Point(13, 295);
+            this.HomePanel.Name = "HomePanel";
+            this.HomePanel.Size = new System.Drawing.Size(1152, 427);
+            this.HomePanel.TabIndex = 13;
+            // 
+            // guna2HtmlLabel3
+            // 
+            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel3.Location = new System.Drawing.Point(3, 8);
+            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(108, 18);
+            this.guna2HtmlLabel3.TabIndex = 0;
+            this.guna2HtmlLabel3.Text = "guna2HtmlLabel3";
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -341,6 +363,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(14)))), ((int)(((byte)(18)))));
             this.ClientSize = new System.Drawing.Size(1177, 770);
             this.ControlBox = false;
+            this.Controls.Add(this.HomePanel);
             this.Controls.Add(this.panelTab1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.guna2Button5);
@@ -368,6 +391,8 @@
             this.guna2Panel1.PerformLayout();
             this.panelTab1.ResumeLayout(false);
             this.panelTab1.PerformLayout();
+            this.HomePanel.ResumeLayout(false);
+            this.HomePanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -395,5 +420,7 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2Panel panelTab1;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
+        private Guna.UI2.WinForms.Guna2Panel HomePanel;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
     }
 }

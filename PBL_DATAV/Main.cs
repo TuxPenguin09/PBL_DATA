@@ -54,6 +54,7 @@ namespace PBL_DATAV
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             panelTab1.Visible = true;
+            HomePanel.Visible = false;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Education Gap in Support";
             guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
@@ -78,8 +79,8 @@ namespace PBL_DATAV
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            
             panelTab1.Visible = true;
+            HomePanel.Visible = false;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Increased Healthcare Leadership";
             guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
@@ -100,6 +101,7 @@ namespace PBL_DATAV
         private void guna2Button5_Click(object sender, EventArgs e)
         {
             panelTab1.Visible = true;
+            HomePanel.Visible = false;
             chartwhole1.Series.Clear();
             guna2HtmlLabel1.Text = "Women in Healthcare <br> Leadership";
             guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 65);
@@ -130,7 +132,18 @@ namespace PBL_DATAV
         private void guna2Button4_Click(object sender, EventArgs e)
         {
             panelTab1.Visible = false;
+            HomePanel.Visible = true;
             chartwhole1.Series.Clear();
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
+            HomePanel.Visible = false;
+            panelTab1.Visible = true;
+            chartwhole1.Series.Clear();
+            guna2HtmlLabel1.Text = "Most Favored Increasing";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
+            guna2HtmlLabel2.Text = "Gender Equality Favor Increased in Country";
         }
     }
 }
