@@ -19,10 +19,7 @@ namespace PBL_DATAV
 
         public void CloseApp()
         {
-            for (int i = Application.OpenForms.Count - 1; i != 1; i = Application.OpenForms.Count - 1)
-            {
-                Application.OpenForms[i].Close();
-            }
+            Application.Exit();
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
