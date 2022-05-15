@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace PBL_DATAV.Properties {
+namespace PBL_DATAV {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace PBL_DATAV.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Main1 {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Main1() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace PBL_DATAV.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PBL_DATAV.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("PBL_DATAV.Main", typeof(Main).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,42 +61,22 @@ namespace PBL_DATAV.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=132,Y=17}.
         /// </summary>
-        internal static System.Drawing.Bitmap d9qzqm8_242916ae_89d8_4da4_bfd4_93bef52e103a {
+        internal static System.Drawing.Point guna2AnimateWindow1_TrayLocation {
             get {
-                object obj = ResourceManager.GetObject("d9qzqm8-242916ae-89d8-4da4-bfd4-93bef52e103a", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("guna2AnimateWindow1.TrayLocation", resourceCulture);
+                return ((System.Drawing.Point)(obj));
             }
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
         /// </summary>
-        internal static System.Drawing.Bitmap Text {
+        internal static System.Drawing.Point menuStrip1_TrayLocation {
             get {
-                object obj = ResourceManager.GetObject("Text", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Text1 {
-            get {
-                object obj = ResourceManager.GetObject("Text1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap TextBackground {
-            get {
-                object obj = ResourceManager.GetObject("TextBackground", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("menuStrip1.TrayLocation", resourceCulture);
+                return ((System.Drawing.Point)(obj));
             }
         }
     }
