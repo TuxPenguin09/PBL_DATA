@@ -145,5 +145,28 @@ namespace PBL_DATAV
         {
 
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            userControl11.Hide();
+            BringToFront();
+            panelTab1.Visible = true;
+            chartwhole1.Series.Clear();
+            guna2HtmlLabel1.Text = "Increased Healthcare Leadership";
+            guna2HtmlLabel2.Location = new Point(guna2HtmlLabel2.Location.X, 39);
+            guna2HtmlLabel2.Text = "Healthcare Leadership increased from Gender Equality";
+            string[] countryName = new string[] { "Canada", "US", "Sweden", "France", "Spain", "UK", "Netherlands", "Germany", "Greece", "Italy", "Poland", "Hungary", "Russia", "Indonesia", "India", "Australia", "South Korea", "Japan", "Phillipines", "Tunisia", "Israel", "Kenya", "Nigeria", "South Africa", "Brazil", "Argentina", "Mexico" };
+            int[] increased = new int[] { 72, 68, 80, 74, 73, 73, 71, 70, 68, 29, 49, 77, 76, 75, 74, 59, 46, 66, 66, 68, 55, 51, 68, 66, 63 };
+            int[] no_change = new int[] { 22, 22, 15, 22, 20, 19, 20, 23, 25, 22, 36, 16, 7, 17, 17, 36, 46, 23, 12, 13, 18, 28, 21, 23, 26 };
+            int[] decreased = new int[] { 5, 4, 4, 4, 5, 7, 5, 5, 3, 12, 11, 5, 10, 5, 6, 4, 7, 10, 20, 17, 24, 19, 8, 8, 11 };
+
+            for (int i = 0; i < 25; i++)
+            {
+                chartwhole1.Series.Add(countryName[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("increased", increased[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("no_change", no_change[i]);
+                chartwhole1.Series[countryName[i]].Points.AddXY("decreased", decreased[i]);
+            }
+        }
     }
 }
