@@ -118,16 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Text" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="d9qzqm8-242916ae-89d8-4da4-bfd4-93bef52e103a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\d9qzqm8-242916ae-89d8-4da4-bfd4-93bef52e103a.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Educational Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Educational Graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Text.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Text" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Text.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="TextBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TextBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Increased Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Increased Graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Most Favor Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Most Favor Graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Woman in Healthcare Graph" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Woman in Healthcare Graph.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

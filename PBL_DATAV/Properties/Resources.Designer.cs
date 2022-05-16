@@ -73,6 +73,36 @@ namespace PBL_DATAV.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Educational_Graph {
+            get {
+                object obj = ResourceManager.GetObject("Educational Graph", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Increased_Graph {
+            get {
+                object obj = ResourceManager.GetObject("Increased Graph", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Most_Favor_Graph {
+            get {
+                object obj = ResourceManager.GetObject("Most Favor Graph", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Text {
             get {
                 object obj = ResourceManager.GetObject("Text", resourceCulture);
@@ -96,6 +126,16 @@ namespace PBL_DATAV.Properties {
         internal static System.Drawing.Bitmap TextBackground {
             get {
                 object obj = ResourceManager.GetObject("TextBackground", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Woman_in_Healthcare_Graph {
+            get {
+                object obj = ResourceManager.GetObject("Woman in Healthcare Graph", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
