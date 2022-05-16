@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +49,15 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Credits";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 18);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(377, 144);
+            this.label3.TabIndex = 1;
+            this.label3.Text = resources.GetString("label3.Text");
             // 
             // label2
             // 
@@ -77,16 +86,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(199, 27);
             this.label1.TabIndex = 3;
-            this.label1.Text = "SameScope v0.1";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(377, 144);
-            this.label3.TabIndex = 1;
-            this.label3.Text = resources.GetString("label3.Text");
+            this.label1.Text = "SameScope v0.3";
             // 
             // About
             // 
